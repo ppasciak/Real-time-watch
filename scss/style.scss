@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@-ms-viewport{
+  width: device-width;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #c2f442;
+}
+.wrapper{
+  margin: 0 auto;
+  width: 500px;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  .h_hand{
+    position: absolute;
+    left: 230px;
+    bottom: 255px;
+    transform-origin: center 75px;
+    transform: rotate(270deg);
+  }
+  .m_hand{
+    position: absolute;
+    left: 233px;
+    bottom: 255px;
+    transform-origin: center 110px;
+    transform: rotate(180deg);
+  }
+  .s_hand{
+    position: absolute;
+    left: 236px;
+    bottom: 245px;
+    transform-origin: center 114px;
+  }
+  .date_box, .day_box{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    position: absolute;
+    bottom: 270px;
+    left: 292px;
+  }
+  .date_box{
+    left: 330px;
+  }
+}
